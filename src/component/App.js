@@ -1,11 +1,16 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
+import NavBar from './navBar'
+import Body from './body'
+import Header from './header'
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        	<div className="alert alert-primary">123</div>
+      <div className="conteiner">
+      		<NavBar />
+      		<Header />
+        	<Body />
       </div>
     );
   }

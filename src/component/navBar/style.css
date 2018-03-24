@@ -1,0 +1,31 @@
+.navbar {
+	background-image: linear-gradient(to bottom, #4fccec 0%, #0180a9 100%);
+	color: white;
+	font-size: 0.9em;
+}
+
+.navbar-select {
+    margin-left: 12.6%;
+    display: flex;
+}
+
+.navbar-select .btn {
+	border: 0px;
+    padding-top: 0px;
+    margin-left: 10px;
+    padding-bottom: 0px;
+    color: white;
+    text-align: center;
+    width: 130px;
+    font-size: 0.9em;
+    border-radius: 3px;
+    background: #87CEEB;
+}
+
+.navbar-select .btn:hover {
+	background: #999
+}
+
+.btn-pointer {
+	float: right;
+}
