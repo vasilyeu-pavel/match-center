@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
+import HeaderSelect from './header-select'
 import './style.css'
 
 class McHeader extends Component {
   render() {
     return (
-      <div>
-        	<div>313</div>
+      <div className = "mcHeader-container">
+        	<div className = "logo" >logo</div>
+        	<HeaderSelect />
       </div>
     );
   }

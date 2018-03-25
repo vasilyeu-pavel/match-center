@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import './style.css'
+import SliderMathcList from './slider-component/slider-matchList'
 
 class Slider extends Component {
   render() {
     return (
-      <div>
-        	<div>225</div>
+      <div className="header-container">
+        	<SliderMathcList />
       </div>
     );
   }
