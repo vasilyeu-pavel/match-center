@@ -1,8 +1,22 @@
 import React, { Component } from 'react'
 import Slider from 'react-slick'
+import SliderMatch from './slider-match'
+import { connect } from 'react-redux';
+import PropTypes from 'prop-types';
 
-export default class Responsive extends Component {
+class SliderMatchList extends Component {
+    static propTypes = {
+        //from connect
+        matchLists: PropTypes.array,
+    };
+
   render() {
+    console.log(this.props)
+    const { matchLists } = this.props
+    const match = matchLists.map(match => (
+    <SliderMatch match = {match} key = {match.id}/>
+    ))
+
     var settings = {
       infinite: false,
       speed: 500,
@@ -31,16 +45,17 @@ export default class Responsive extends Component {
         }
       }]
     };
+
     return (
       <div>
         <Slider {...settings}>
-          <div><h3>1</h3></div>
-          <div><h3>2</h3></div>
-          <div><h3>3</h3></div>
-          <div><h3>3</h3></div>
-          <div><h3>3</h3></div>
+          {match}
         </Slider>
       </div>
     );
   }
 }
+
+export default connect ((state) => (console.log(state),{
+  matchLists: state.match
+}))(SliderMatchList)

@@ -5,7 +5,7 @@ class Body extends Component {
   render() {
     return (
       <div className="container">
-        	<div>33</div>
+        	<div></div>
       </div>
     );
   }

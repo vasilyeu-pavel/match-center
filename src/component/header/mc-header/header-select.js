@@ -18,15 +18,18 @@ export default class HeaderSelect extends React.Component {
   }
 
   render() {
+  const {legue} = this.props
+  const rounds = legue.rounds.map((round) => (
+    <DropdownItem header key = {round.id}>{round.name}</DropdownItem>
+  ))
+
     return (
       <ButtonDropdown isOpen={this.state.dropdownOpen} toggle={this.toggle}>
         <DropdownToggle caret>
-          Week
+          rounds
         </DropdownToggle>
         <DropdownMenu>
-          <DropdownItem header>1</DropdownItem>
-          <DropdownItem header>2</DropdownItem>
-          <DropdownItem header>3</DropdownItem>
+          {rounds}
         </DropdownMenu>
       </ButtonDropdown>
     );

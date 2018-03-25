@@ -1,0 +1,13 @@
+.matchStats {
+	font-size: 0.7em;
+	margin-bottom: 3px;
+}
+
+.matchDate{
+	font-size: 0.6em;
+}
+
+.matchScore {
+	float: right;
+	font-weight: bold;
+}

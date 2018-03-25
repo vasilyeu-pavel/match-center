@@ -1,7 +1,7 @@
 import produce from "immer";
-import {normalizedMatch} from '../fixtures'
+import {normalizedLegue} from '../fixtures'
 
-export default (state = normalizedMatch, action) => {
+export default (state = normalizedLegue, action) => {
     const {type} = action
     return produce(state, draft => {
     	switch (type) {
