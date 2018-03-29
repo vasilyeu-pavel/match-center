@@ -1,0 +1,8 @@
+.match-header {
+	min-height: 250px;
+	background: rgba(0,0,0,0.7);
+	padding: 20px;
+	border-radius: 5px;
+	color: #fff;
+	font-family: 'PT Sans Narrow', sans-serif;
+}

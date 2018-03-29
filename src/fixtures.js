@@ -25,12 +25,14 @@ export const normalizedMatch = [
           "team1": {
             "key": "rapid",
             "name": "SK Rapid Wien",
-            "code": "RAP"
+            "code": "RAP",
+            "logo" : "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/911.png"
           },
           "team2": {
             "key": "mattersburg",
             "name": "SV Mattersburg",
-            "code": "MAT"
+            "code": "MAT",
+            "logo" : "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/912.png"
           },
           "score1": 2,
           "score2": 2
@@ -41,12 +43,14 @@ export const normalizedMatch = [
           "team1": {
             "key": "wac",
             "name": "Wolfsberger AC",
-            "code": "WAC"
+            "code": "WAC",
+            "logo" : "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/903.png"
           },
           "team2": {
             "key": "salzburg",
             "name": "FC RB Salzburg",
-            "code": "RBS"
+            "code": "RBS",
+            "logo" : "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/359.png"
           },
           "score1": 0,
           "score2": 2
@@ -57,12 +61,14 @@ export const normalizedMatch = [
           "team1": {
             "key": "lask",
             "name": "LASK Linz",
-            "code": "ASK"
+            "code": "ASK",
+            "logo" : "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/227.png"
           },
           "team2": {
             "key": "admira",
             "name": "FC Admira Wacker",
-            "code": "ADM"
+            "code": "ADM",
+            "logo" : "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/221.png"
           },
           "score1": 3,
           "score2": 0
@@ -73,12 +79,14 @@ export const normalizedMatch = [
           "team1": {
             "key": "altach",
             "name": "SCR Altach",
-            "code": "ALT"
+            "code": "ALT",
+            "logo" : "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/860.png"
           },
           "team2": {
             "key": "austria",
             "name": "FK Austria Wien",
-            "code": "AUS"
+            "code": "AUS",
+            "logo" : "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/331.png"
           },
           "score1": 3,
           "score2": 0
@@ -89,12 +97,14 @@ export const normalizedMatch = [
           "team1": {
             "key": "sturm",
             "name": "SK Sturm Graz",
-            "code": "STU"
+            "code": "STU",
+            "logo" : "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/854.png"
           },
           "team2": {
             "key": "stpoelten",
             "name": "SKN St. Pölten",
-            "code": "SKN"
+            "code": "SKN",
+            "logo" : "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/905.png"
           },
           "score1": 3,
           "score2": 2
@@ -105,12 +115,14 @@ export const normalizedMatch = [
           "team1": {
             "key": "salzburg",
             "name": "FC RB Salzburg",
-            "code": "RBS"
+            "code": "RBS",
+            "logo" : "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/922.png"
           },
           "team2": {
             "key": "lask",
             "name": "LASK Linz",
-            "code": "ASK"
+            "code": "ASK",
+            "logo" : "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/777.png"
           },
           "score1": 1,
           "score2": 1
@@ -121,12 +133,14 @@ export const normalizedMatch = [
           "team1": {
             "key": "stpoelten",
             "name": "SKN St. Pölten",
-            "code": "SKN"
+            "code": "SKN",
+            "logo" : "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/999.png"
           },
           "team2": {
             "key": "rapid",
             "name": "SK Rapid Wien",
-            "code": "RAP"
+            "code": "RAP",
+            "logo" : "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/126.png"
           },
           "score1": 1,
           "score2": 4
@@ -137,12 +151,14 @@ export const normalizedMatch = [
           "team1": {
             "key": "mattersburg",
             "name": "SV Mattersburg",
-            "code": "MAT"
+            "code": "MAT",
+            "logo" : "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/904.png"
           },
           "team2": {
             "key": "wac",
             "name": "Wolfsberger AC",
-            "code": "WAC"
+            "code": "WAC",
+            "logo" : "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/567.png"
           },
           "score1": 1,
           "score2": 0
@@ -153,12 +169,14 @@ export const normalizedMatch = [
           "team1": {
             "key": "austria",
             "name": "FK Austria Wien",
-            "code": "AUS"
+            "code": "AUS",
+            "logo" : "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/323.png"
           },
           "team2": {
             "key": "sturm",
             "name": "SK Sturm Graz",
-            "code": "STU"
+            "code": "STU",
+            "logo" : "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/453.png"
           },
           "score1": 2,
           "score2": 3
@@ -169,12 +187,14 @@ export const normalizedMatch = [
           "team1": {
             "key": "admira",
             "name": "FC Admira Wacker",
-            "code": "ADM"
+            "code": "ADM",
+            "logo" : "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/123.png"
           },
           "team2": {
             "key": "altach",
             "name": "SCR Altach",
-            "code": "ALT"
+            "code": "ALT",
+            "logo" : "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/423.png"
           },
           "score1": 4,
           "score2": 1

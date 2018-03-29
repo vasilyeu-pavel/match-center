@@ -6,7 +6,7 @@ import Slider from './slider/Slider'
 class Header extends Component {
   render() {
     return (
-      <div className="container">
+      <div className="container mb-3">
       		<McHeader />
         	<Slider />
       </div>
