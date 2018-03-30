@@ -38,7 +38,7 @@ class ScoresContainer extends Component {
 
 		const match = matchList.filter(match => match.id === id)
 	    return (
-	    	<div className = "row justify-content-center">
+	    	<div className = "row justify-content-center mb-2">
 	    		<TeamHome match = {match}/>
                 <Scores match = {match}/>
 	    		<TeamAway match = {match}/>

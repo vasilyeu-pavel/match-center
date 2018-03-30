@@ -1,0 +1,28 @@
+.eventsTeamHome {
+	text-align: right;
+}
+
+.eventsTeamAway {
+	text-align: left;
+}
+
+.headesEeventsMatch {
+	text-align: center;
+}
+
+.infoGoals {
+	margin: 0 5px;
+}
+
+.info-goal {
+	font: 13px/16px 'PT Sans Narrow', sans-serif;
+}
+
+.status-match {
+	font: 13px/16px 'PT Sans Narrow', sans-serif;
+    font-weight: bold
+}
+
+.date-match {
+	font: 12px/14px 'PT Sans Narrow', sans-serif;
+}
