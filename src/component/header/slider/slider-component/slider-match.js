@@ -5,22 +5,15 @@ import { NavLink } from 'react-router-dom';
 
 export default class SliderMatch extends Component {
     static propTypes = {
-    //from connect
-	    match: PropTypes.shape({
-	    	id: PropTypes.string.isRequired,
-	    	date: PropTypes.string,
-	    	team2: PropTypes.object,
-	    	team1: PropTypes.object,
-	    	score1: PropTypes.number,
-	    	score2: PropTypes.number
-	    }),
+    match: PropTypes.object,
+    index: PropTypes.number,
 	};
 
   render() {
-  	const {match} = this.props
+  	const {match, index} = this.props
 
   	return(
-      <NavLink to = {`/match/${match.id}`} style = {{
+      <NavLink to = {`/match/${index}`} style = {{
           "textDecoration": "none",
           "color": 'white'
       }}>
@@ -33,16 +26,16 @@ export default class SliderMatch extends Component {
       		  <div className = "matchStats">
 
       		  		<div className = "matchTeam1">
-      		  			<strong>{match.team1.name}</strong>
-    	  		  		<span className = "matchScore">{match.score1}</span>
+      		  			<strong>{match.score.home}</strong>
+    	  		  		<span className = "matchScore">{match.score.homeScore}</span>
     	  		  	</div>
 
       		  		<div className = "matchTeam2">
-      		  		  	<strong>{match.team2.name}</strong>
-      		  			<span className = "matchScore">{match.score2}</span>
+      		  		  	<strong>{match.score.away}</strong>
+      		  			<span className = "matchScore">{match.score.awayScore}</span>
       		  		</div>
       		  </div>
-      		    <div className = "matchDate">{match.date}</div>
+      		    <div className = "matchDate">{match.general.date + " " + match.general.time}</div>
       		  </div>
       </NavLink>      
   		)

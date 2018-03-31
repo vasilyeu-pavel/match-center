@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 class TeamAway extends Component {
 	static propTypes = {
-	    match: PropTypes.array
+	    match: PropTypes.object,
     };	
 
     render() {
@@ -12,10 +12,10 @@ class TeamAway extends Component {
 		<div className = "col-2">
 			<div className = "row justify-content-around">
 				<div className = "scores-card">
-					<h1>{match[0].score1}</h1>
+					<h1>{match.score.homeScore}</h1>
 				</div>
 				<div className = "scores-card">
-					<h1>{match[0].score2}</h1>
+					<h1>{match.score.awayScore}</h1>
 				</div>
 			</div>
 		</div>

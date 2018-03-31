@@ -13,13 +13,13 @@ class SliderMatchList extends Component {
   componentWillReceiveProps(nextProps) {
     const {filterRound} = nextProps
     if (filterRound === 1) this.slick.slickGoTo(filterRound)
-    this.slick.slickGoTo((filterRound - 1) * 5) //фильтр на кол-во матчей в туре
+    this.slick.slickGoTo((filterRound - 1) * 10) //фильтр на кол-во матчей в туре
   }
 
   render() {
     const { matchLists } = this.props
-    const match = matchLists.map(match => (
-    <SliderMatch match = {match} key = {match.id}/>
+    const match = matchLists.map((match, index) => (
+    <SliderMatch match = {match} key = {index} index = {index}/>
     ))
 
     var settings = {
@@ -62,6 +62,6 @@ class SliderMatchList extends Component {
 }
 
 export default connect ((state) => ({
-  matchLists: state.match,
+  matchLists: state.matches,
   filterRound: state.filterRound
 }))(SliderMatchList)

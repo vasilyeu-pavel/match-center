@@ -13,7 +13,7 @@ class Head extends Component {
 	    return (
 	    	<div className = "col">
 	      		<ScoresContainer id = {id}/>
-	      		<Events id = {id} />
+	      		<Events id = {id}/>
 	      	</div>
 	    	)
 	}

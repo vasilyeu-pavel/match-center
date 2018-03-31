@@ -35,18 +35,17 @@ class ScoresContainer extends Component {
 	render() {
 		const id = this.state.matchId
 		const {matchList} = this.props
-
-		const match = matchList.filter(match => match.id === id)
+        
 	    return (
 	    	<div className = "row justify-content-center mb-2">
-	    		<TeamHome match = {match}/>
-                <Scores match = {match}/>
-	    		<TeamAway match = {match}/>
+	    		<TeamHome match = {matchList[id]}/>
+                <Scores match = {matchList[id]}/>
+	    		<TeamAway match = {matchList[id]}/>
 	      	</div>
 	    );
 	}
 }
 
 export default connect(state => ({
-	matchList: state.match
+	matchList: state.matches
 }))(ScoresContainer);

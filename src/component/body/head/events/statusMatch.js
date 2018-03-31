@@ -5,19 +5,20 @@ import { Clock } from 'react-feather';
 
 class StatusMatch extends Component {
 	static propTypes = {
-        id: PropTypes.string,
+        match: PropTypes.object,
     };
 
 	render() {
+		const { match } = this.props
 		return (
-			<div className = "col-md-2 headesEeventsMatch">
+			<div className = "col-2 headesEeventsMatch">
 				<div className = "row align-items-start justify-content-center">
 					<span><Clock /></span> 
 					<span className = "mx-2 status-match align-self-center">Finished</span>
 				</div>
 				<div className = "w-100"></div>
 				<div className = "row align-items-start justify-content-center date-match">
-					2200.03.15
+					{match.general.date + " " + match.general.time}
 				</div>
 			</div>
 			)

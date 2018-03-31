@@ -23,19 +23,88 @@ export const normalizedMatch = [
           "id": "1",
           "date": "2017-07-22",
           "team1": {
+            "events": {
+              "goals": ["g1",],
+              "foul": [],
+              "yellow-card": [],
+              "red-card": [],
+              "shot": []
+            },
+            "players": [
+              {
+                "id": "p1",
+                "name": "Vasilyeu P"
+              },
+              {
+                "id": "p2",
+                "name": "Ivanov P"
+              },
+              {
+                "id": "p3",
+                "name": "Grishka P"
+              },
+              {
+                "id": "p4",
+                "name": "Ihshkanov A"
+              },
+              {
+                "id": "p5",
+                "name": "Biru D"
+              },
+              {
+                "id": "p6",
+                "name": "Vaso Pe"
+              },
+              {
+                "id": "p7",
+                "name": "Denisuk D"
+              },
+              {
+                "id": "p8",
+                "name": "Marinin O"
+              },
+              {
+                "id": "p9",
+                "name": "Dashkov D"
+              },
+              {
+                "id": "p10",
+                "name": "Kuzmin N"
+              },
+              {
+                "id": "p11",
+                "name": "Martiros L"
+              },
+            ],
             "key": "rapid",
             "name": "SK Rapid Wien",
             "code": "RAP",
             "logo" : "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/911.png"
           },
           "team2": {
+            "events": {
+              "goals": [],
+              "foul": [],
+              "yellow-card": [],
+              "red-card": [],
+              "shot": []
+            },
             "key": "mattersburg",
             "name": "SV Mattersburg",
             "code": "MAT",
             "logo" : "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/912.png"
           },
           "score1": 2,
-          "score2": 2
+          "score2": 2,
+          "eventsList": [
+            {
+              "id": "g1",
+              "name": "goal",
+              "time": "3",
+              "player": "p1",
+            },
+
+          ]
         },
         {
           "id": "2",
@@ -201,5 +270,6 @@ export const normalizedMatch = [
         }
 
 ]
+
 
 

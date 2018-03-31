@@ -14,8 +14,8 @@ class McHeader extends Component {
     return (
       <div className = "container mb-2">
           <div className = "row justify-content-between">
-            <HeaderSelect legue = {legue}/>
-          	<div className = "col-md-3 logo" >{legue.name}</div>
+            <HeaderSelect seasson = {legue}/>
+          	<div className = "col-md-3 logo" >{legue.league}</div>
           </div>  
       </div>
     );

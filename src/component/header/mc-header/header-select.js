@@ -21,11 +21,11 @@ class HeaderSelect extends Component{
   }
 
   render() {
-    const {legue} = this.props
-    const rounds = legue.rounds.map((round, index) => (
-      <DropdownItem header key = {round.id}>
+    const {seasson} = this.props
+    const rounds = seasson.rounds.map((round, index) => (
+      <DropdownItem header key = {round}>
         <div onClick = {this.sendIndexRound.bind(this, ++index)}>
-          {round.name}
+          Round {round}
         </div>
       </DropdownItem>
     ))
@@ -37,7 +37,7 @@ class HeaderSelect extends Component{
             rounds
           </DropdownToggle>
           <DropdownMenu>
-            {rounds}
+          {rounds}
           </DropdownMenu>
         </ButtonDropdown>
       </div>  
@@ -56,7 +56,7 @@ class HeaderSelect extends Component{
 }
 
 HeaderSelect.propTypes = {
-  legue: PropTypes.object,
+  seasson: PropTypes.object,
   selectedRound: PropTypes.func,
 }
 

@@ -1,24 +1,29 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import './style.css'
-import { Aperture, Clock } from 'react-feather';
 import EventsTeamHome from './eventsTeamHome'
 import EventsTeamAway from './eventsTeamAway'
 import StatusMatch from './statusMatch'
+import { connect } from 'react-redux';
+import {EPL} from '../../../../eplFixtures'
 
 class Events extends Component {
 	static propTypes = {
         id: PropTypes.string,
+        matchList: PropTypes.array
     };
 
 	render() {
+		const { matchList, id } = this.props
 		return (
 				<div className = "row justify-content-center">
-					<EventsTeamHome />
-					<StatusMatch />
-					<EventsTeamAway />
+					<EventsTeamHome match = {matchList[id]}/>
+					<StatusMatch match = {matchList[id]}/>
+					<EventsTeamAway match = {matchList[id]}/>
 				</div>
 			)
 	}
 }
-export default Events
+export default connect(state => ({
+	matchList: state.matches
+}))(Events)

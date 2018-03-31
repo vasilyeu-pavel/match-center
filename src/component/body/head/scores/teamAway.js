@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 class Scores extends Component {
 	static propTypes = {
-	    match: PropTypes.array
+	    match: PropTypes.object
 	};
 
 	render() {
@@ -12,11 +12,11 @@ class Scores extends Component {
 		<div className = "col-4">
 		    <div className = "row justify-content-between">
 				<div className = "col align-self-end match-header-teamAway">	
-					<h3>{match[0].team2.name}</h3>
+					<h3>{match.score.away}</h3>
 				</div>	      				    
-				<div className = "col logo" style={{"textAlign": "right"}}>
-					<img src={match[0].team2.logo}/>
-				</div>
+			{/*	<div className = "col logo" style={{"textAlign": "right"}}>
+					<img src={}/>
+				</div>*/}
 			</div>
 		</div>
     );

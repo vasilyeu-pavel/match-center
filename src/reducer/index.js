@@ -1,10 +1,10 @@
 import { combineReducers } from "redux";
 import legue from './legue'
-import match from './match'
+import matches from './match'
 import filterRound from './filterRound'
 
 export default combineReducers({
     legue: legue,
-    match: match,
+    matches: matches,
     filterRound: filterRound,
 });

@@ -1,0 +1,56 @@
+.match-accordion {
+	min-height: 200px;
+	background: #fff;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.panel-lineUps {
+	font: 13px/16px 'PT Sans Narrow', sans-serif;
+	margin: 0px;
+    padding: 0px;
+}
+.panel-lineUps-players-content {
+	padding-top: 10px;
+}
+
+.panel-lineUps-header {
+	background: #D3D3D3;
+	text-align: center;
+    cursor: pointer;
+    color: black;
+    padding: 12px 40px 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.panel-lineUps-teamHome {
+	padding: 0px;
+}
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul li {
+	font-size: 12px;
+    line-height: 22px;
+}
+
+.player-number {
+    margin-right: 8px;
+    display: inline-block;
+    width: 30px;
+    color: grey;
+    text-align: right
+}
+
+.player-name {
+    max-width: 68%;
+    padding-right: 15px;
+    position: relative;
+    vertical-align: top;
+}
