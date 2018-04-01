@@ -14,9 +14,9 @@ class Scores extends Component {
 				<div className = "col align-self-end match-header-teamAway">	
 					<h3>{match.score.away}</h3>
 				</div>	      				    
-			{/*	<div className = "col logo" style={{"textAlign": "right"}}>
-					<img src={}/>
-				</div>*/}
+				<div className = "col logo" style={{"textAlign": "right"}}>
+					<img src={match.score.logoAway}/>
+				</div>
 			</div>
 		</div>
     );

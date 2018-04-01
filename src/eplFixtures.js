@@ -14,7 +14,9 @@ export const EPL = {
 	},
 	"score": {
 	"home": "Arsenal",
+	"logoHome": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/1015.png",
 	"away": "West Ham United",
+	"logoAway": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/253.png",
 	"homeScore": "2",
 	"awayScore": "0"
 	},
@@ -131,7 +133,9 @@ export const EPL = {
 	},
 	"score": {
 	"home": "Blackburn Rovers",
+	"logoHome": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/239.png",
 	"away": "Tottenham Hotspur",
+	"logoAway": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/67.png",
 	"homeScore": "0",
 	"awayScore": "2"
 	},
@@ -253,7 +257,9 @@ export const EPL = {
 	},
 	"score": {
 	"home": "Coventry City",
+	"logoHome": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/1013.png",
 	"away": "Nottingham Forest",
+	"logoAway": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/1023.png",
 	"homeScore": "2",
 	"awayScore": "3"
 	},
@@ -390,7 +396,9 @@ export const EPL = {
 	},
 	"score": {
 	"home": "Derby County",
+	"logoHome": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/1015.png",
 	"away": "Leeds United",
+	"logoAway": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/1019.png",
 	"homeScore": "3",
 	"awayScore": "3"
 	},
@@ -543,7 +551,9 @@ export const EPL = {
 	},
 	"score": {
 	"home": "Everton",
+	"logoHome": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/246.png",
 	"away": "Newcastle United",
+	"logoAway": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/249.png",
 	"homeScore": "3",
 	"awayScore": "3"
 	},
@@ -697,7 +707,9 @@ export const EPL = {
 	},
 	"score": {
 	"home": "Middlesbrough",
+	"logoHome": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/1021.png",
 	"away": "Liverpool",
+	"logoAway": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/247.png",
 	"homeScore": "3",
 	"awayScore": "3"
 	},
@@ -851,7 +863,9 @@ export const EPL = {
 	},
 	"score": {
 	"home": "Sheffield Wednesday",
+	"logoHome": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/1593.png",
 	"away": "Aston Villa",
+	"logoAway": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/71.png",
 	"homeScore": "3",
 	"awayScore": "3"
 	},
@@ -1005,7 +1019,9 @@ export const EPL = {
 	},
 	"score": {
 	"home": "Sunderland",
+	"logoHome": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/251.png",
 	"away": "Leicester City",
+	"logoAway": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/1020.png",
 	"homeScore": "0",
 	"awayScore": "0"
 	},
@@ -1177,7 +1193,9 @@ export const EPL = {
 	},
 	"score": {
 	"home": "Milton Keynes Dons",
+	"logoHomeo": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/1334.png",
 	"away": "Manchester United",
+	"logoAway": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/21.png",
 	"homeScore": "0",
 	"awayScore": "3"
 	},
@@ -1349,7 +1367,9 @@ export const EPL = {
 	},
 	"score": {
 	"home": "Southampton",
+	"logoHome": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/1026.png",
 	"away": "Chelsea",
+	"logoAway": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/20.png",
 	"homeScore": "0",
 	"awayScore": "0"
 	},
@@ -1521,7 +1541,9 @@ export const EPL = {
 	},
 	"score": {
 	"home": "Liverpool",
+	"logoHome": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/247.png",
 	"away": "Arsenal",
+	"logoAway": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/1015.png",
 	"homeScore": "2",
 	"awayScore": "0"
 	},
@@ -1693,7 +1715,9 @@ export const EPL = {
 	},
 	"score": {
 	"home": "Leeds United",
+	"logoHome": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/1019.png",
 	"away": "Sheffield Wednesday",
+	"logoAway": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/1593.png",
 	"homeScore": "0",
 	"awayScore": "2"
 	},
@@ -1865,7 +1889,9 @@ export const EPL = {
 	},
 	"score": {
 	"home": "Aston Villa",
+	"logoHome": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/71.png",
 	"away": "Blackburn Rovers",
+	"logoAway": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/239.png",
 	"homeScore": "1",
 	"awayScore": "0"
 	},
@@ -2037,7 +2063,9 @@ export const EPL = {
 	},
 	"score": {
 	"home": "Chelsea",
+	"logoHome": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/20.png",
 	"away": "Middlesbrough",
+	"logoAway": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/1021.png",
 	"homeScore": "1",
 	"awayScore": "0"
 	},
@@ -2209,7 +2237,9 @@ export const EPL = {
 	},
 	"score": {
 	"home": "Leicester City",
+	"logoHome": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/1020.png",
 	"away": "Southampton",
+	"logoAway": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/1026.png",
 	"homeScore": "2",
 	"awayScore": "1"
 	},
@@ -2387,7 +2417,9 @@ export const EPL = {
 	},
 	"score": {
 	"home": "Manchester United",
+	"logoHome": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/21.png",
 	"away": "Everton",
+	"logoAway": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/246.png",
 	"homeScore": "2",
 	"awayScore": "2"
 	},
@@ -2565,7 +2597,9 @@ export const EPL = {
 	},
 	"score": {
 	"home": "Newcastle United",
+	"logoHome": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/249.png",
 	"away": "Milton Keynes Dons",
+	"logoAway": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/1334.png",
 	"homeScore": "2",
 	"awayScore": "0"
 	},
@@ -2743,7 +2777,9 @@ export const EPL = {
 	},
 	"score": {
 	"home": "Nottingham Forest",
+	"logoHome": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/1023.png",
 	"away": "Sunderland",
+	"logoAway": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/251.png",
 	"homeScore": "1",
 	"awayScore": "4"
 	},
@@ -2925,7 +2961,9 @@ export const EPL = {
 	},
 	"score": {
 	"home": "Tottenham Hotspur",
+	"logoHome": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/67.png",
 	"away": "Derby County",
+	"logoAway": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/1015.png",
 	"homeScore": "1",
 	"awayScore": "1"
 	},
@@ -3107,7 +3145,9 @@ export const EPL = {
 	},
 	"score": {
 	"home": "West Ham United",
+	"logoHome": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/253.png",
 	"away": "Coventry City",
+	"logoAway": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/1013.png",
 	"homeScore": "1",
 	"awayScore": "1"
 	},
@@ -3289,7 +3329,9 @@ export const EPL = {
 	},
 	"score": {
 	"home": "Aston Villa",
+	"logoHome": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/71.png",
 	"away": "Derby County",
+	"logoAway": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/1015.png",
 	"homeScore": "2",
 	"awayScore": "0"
 	},
@@ -3471,7 +3513,9 @@ export const EPL = {
 	},
 	"score": {
 	"home": "Chelsea",
+	"logoHome": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/20.png",
 	"away": "Coventry City",
+	"logoAway": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/1013.png",
 	"homeScore": "2",
 	"awayScore": "0"
 	},
@@ -3653,7 +3697,9 @@ export const EPL = {
 	},
 	"score": {
 	"home": "Leicester City",
+	"logoHome": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/1020.png",
 	"away": "Arsenal",
+	"logoAway": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/1015.png",
 	"homeScore": "0",
 	"awayScore": "2"
 	},
@@ -3835,7 +3881,9 @@ export const EPL = {
 	},
 	"score": {
 	"home": "Liverpool",
+	"logoHome": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/247.png",
 	"away": "Sunderland",
+	"logoAway": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/251.png",
 	"homeScore": "0",
 	"awayScore": "0"
 	},
@@ -4017,7 +4065,9 @@ export const EPL = {
 	},
 	"score": {
 	"home": "Newcastle United",
+	"logoHome": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/249.png",
 	"away": "Sheffield Wednesday",
+	"logoAway": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/1593.png",
 	"homeScore": "1",
 	"awayScore": "2"
 	},
@@ -4199,7 +4249,9 @@ export const EPL = {
 	},
 	"score": {
 	"home": "Nottingham Forest",
+	"logoHome": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/1023.png",
 	"away": "Middlesbrough",
+	"logoAway": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/1021.png",
 	"homeScore": "1",
 	"awayScore": "1"
 	},
@@ -4393,7 +4445,9 @@ export const EPL = {
 	},
 	"score": {
 	"home": "Tottenham Hotspur",
+	"logoHome": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/67.png",
 	"away": "Everton",
+	"logoAway": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/246.png",
 	"homeScore": "0",
 	"awayScore": "0"
 	},
@@ -4587,7 +4641,9 @@ export const EPL = {
 	},
 	"score": {
 	"home": "West Ham United",
+	"logoHome": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/253.png",
 	"away": "Southampton",
+	"logoAway": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/1026.png",
 	"homeScore": "2",
 	"awayScore": "1"
 	},
@@ -4781,7 +4837,9 @@ export const EPL = {
 	},
 	"score": {
 	"home": "Manchester United",
+	"logoHome": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/21.png",
 	"away": "Blackburn Rovers",
+	"logoAway": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/239.png",
 	"homeScore": "2",
 	"awayScore": "2"
 	},
@@ -4975,7 +5033,9 @@ export const EPL = {
 	},
 	"score": {
 	"home": "Leeds United",
+	"logoHome": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/1019.png",
 	"away": "Milton Keynes Dons",
+	"logoAway": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/1334.png",
 	"homeScore": "1",
 	"awayScore": "0"
 	},
@@ -5169,7 +5229,9 @@ export const EPL = {
 	},
 	"score": {
 	"home": "Sheffield Wednesday",
+	"logoHome": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/1593.png",
 	"away": "Leicester City",
+	"logoAway": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/1020.png",
 	"homeScore": "2",
 	"awayScore": "1"
 	},
@@ -5363,7 +5425,9 @@ export const EPL = {
 	},
 	"score": {
 	"home": "Arsenal",
+	"logoHome": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/1015.png",
 	"away": "Chelsea",
+	"logoAway": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/20.png",
 	"homeScore": "3",
 	"awayScore": "3"
 	},
@@ -5557,7 +5621,9 @@ export const EPL = {
 	},
 	"score": {
 	"home": "Blackburn Rovers",
+	"logoHome": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/239.png",
 	"away": "Leeds United",
+	"logoAway": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/1019.png",
 	"homeScore": "0",
 	"awayScore": "1"
 	},
@@ -5751,7 +5817,9 @@ export const EPL = {
 	},
 	"score": {
 	"home": "Coventry City",
+	"logoHome": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/1013.png",
 	"away": "Liverpool",
+	"logoAway": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/247.png",
 	"homeScore": "0",
 	"awayScore": "1"
 	},
@@ -5945,7 +6013,9 @@ export const EPL = {
 	},
 	"score": {
 	"home": "Derby County",
+	"logoHome": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/1015.png",
 	"away": "Manchester United",
+	"logoAway": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/21.png",
 	"homeScore": "1",
 	"awayScore": "1"
 	},
@@ -6139,7 +6209,9 @@ export const EPL = {
 	},
 	"score": {
 	"home": "Everton",
+	"logoHome": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/246.png",
 	"away": "Aston Villa",
+	"logoAway": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/71.png",
 	"homeScore": "0",
 	"awayScore": "1"
 	},
@@ -6333,7 +6405,9 @@ export const EPL = {
 	},
 	"score": {
 	"home": "Middlesbrough",
+	"logoHome": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/1021.png",
 	"away": "West Ham United",
+	"logoAway": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/253.png",
 	"homeScore": "4",
 	"awayScore": "1"
 	},
@@ -6531,7 +6605,9 @@ export const EPL = {
 	},
 	"score": {
 	"home": "Southampton",
+	"logoHome": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/1026.png",
 	"away": "Nottingham Forest",
+	"logoAway": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/1023.png",
 	"homeScore": "2",
 	"awayScore": "2"
 	},
@@ -6729,7 +6805,9 @@ export const EPL = {
 	},
 	"score": {
 	"home": "Sunderland",
+	"logoHome": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/251.png",
 	"away": "Newcastle United",
+	"logoAway": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/249.png",
 	"homeScore": "1",
 	"awayScore": "2"
 	},
@@ -6927,7 +7005,9 @@ export const EPL = {
 	},
 	"score": {
 	"home": "Milton Keynes Dons",
+	"logoHome": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/1334.png",
 	"away": "Tottenham Hotspur",
+	"logoAway": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/67.png",
 	"homeScore": "1",
 	"awayScore": "0"
 	},
@@ -7125,7 +7205,9 @@ export const EPL = {
 	},
 	"score": {
 	"home": "Aston Villa",
+	"logoHome": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/71.png",
 	"away": "Arsenal",
+	"logoAway": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/1015.png",
 	"homeScore": "2",
 	"awayScore": "2"
 	},
@@ -7323,7 +7405,9 @@ export const EPL = {
 	},
 	"score": {
 	"home": "Leeds United",
+	"logoHome": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/1019.png",
 	"away": "Manchester United",
+	"logoAway": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/21.png",
 	"homeScore": "0",
 	"awayScore": "4"
 	},
@@ -7521,7 +7605,9 @@ export const EPL = {
 	},
 	"score": {
 	"home": "Liverpool",
+	"logoHome": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/247.png",
 	"away": "Southampton",
+	"logoAway": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/1026.png",
 	"homeScore": "2",
 	"awayScore": "1"
 	},
@@ -7719,7 +7805,9 @@ export const EPL = {
 	},
 	"score": {
 	"home": "Middlesbrough",
+	"logoHome": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/1021.png",
 	"away": "Coventry City",
+	"logoAway": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/1013.png",
 	"homeScore": "4",
 	"awayScore": "0"
 	},
@@ -7917,7 +8005,9 @@ export const EPL = {
 	},
 	"score": {
 	"home": "Nottingham Forest",
+	"logoHome": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/1023.png",
 	"away": "Leicester City",
+	"logoAway": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/1020.png",
 	"homeScore": "0",
 	"awayScore": "0"
 	},
@@ -8115,7 +8205,9 @@ export const EPL = {
 	},
 	"score": {
 	"home": "Sheffield Wednesday",
+	"logoHome": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/1593.png",
 	"away": "Chelsea",
+	"logoAway": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/20.png",
 	"homeScore": "0",
 	"awayScore": "2"
 	},
@@ -8313,7 +8405,9 @@ export const EPL = {
 	},
 	"score": {
 	"home": "Tottenham Hotspur",
+	"logoHome": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/67.png",
 	"away": "Newcastle United",
+	"logoAway": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/249.png",
 	"homeScore": "1",
 	"awayScore": "2"
 	},
@@ -8511,7 +8605,9 @@ export const EPL = {
 	},
 	"score": {
 	"home": "Milton Keynes Dons",
+	"logoHome": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/1334.png",
 	"away": "Everton",
+	"logoAway": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/246.png",
 	"homeScore": "4",
 	"awayScore": "0"
 	},
@@ -8709,7 +8805,9 @@ export const EPL = {
 	},
 	"score": {
 	"home": "Sunderland",
+	"logoHome": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/251.png",
 	"away": "West Ham United",
+	"logoAway": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/253.png",
 	"homeScore": "0",
 	"awayScore": "0"
 	},
@@ -8907,7 +9005,9 @@ export const EPL = {
 	},
 	"score": {
 	"home": "Blackburn Rovers",
+	"logoHome": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/239.png",
 	"away": "Derby County",
+	"logoAway": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/1015.png",
 	"homeScore": "1",
 	"awayScore": "2"
 	},
@@ -9105,7 +9205,9 @@ export const EPL = {
 	},
 	"score": {
 	"home": "Coventry City",
+	"logoHome": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/1013.png",
 	"away": "Leeds United",
+	"logoAway": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/1019.png",
 	"homeScore": "2",
 	"awayScore": "1"
 	},
@@ -9303,7 +9405,9 @@ export const EPL = {
 	},
 	"score": {
 	"home": "Derby County",
+	"logoHome": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/1015.png",
 	"away": "Sunderland",
+	"logoAway": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/251.png",
 	"homeScore": "1",
 	"awayScore": "0"
 	},
@@ -9501,7 +9605,9 @@ export const EPL = {
 	},
 	"score": {
 	"home": "Everton",
+	"logoHome": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/246.png",
 	"away": "Middlesbrough",
+	"logoAway": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/1021.png",
 	"homeScore": "1",
 	"awayScore": "2"
 	},
@@ -9699,7 +9805,9 @@ export const EPL = {
 	},
 	"score": {
 	"home": "Manchester United",
+	"logoHome": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/21.png",
 	"away": "Nottingham Forest",
+	"logoAway": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/1023.png",
 	"homeScore": "4",
 	"awayScore": "1"
 	},
@@ -9898,7 +10006,9 @@ export const EPL = {
 	},
 	"score": {
 	"home": "Newcastle United",
+	"logoHome": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/249.png",
 	"away": "Blackburn Rovers",
+	"logoAway": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/239.png",
 	"homeScore": "2",
 	"awayScore": "1"
 	},
@@ -10097,7 +10207,9 @@ export const EPL = {
 	},
 	"score": {
 	"home": "Southampton",
+	"logoHome": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/1026.png",
 	"away": "Tottenham Hotspur",
+	"logoAway": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/67.png",
 	"homeScore": "0",
 	"awayScore": "1"
 	},
@@ -10296,7 +10408,9 @@ export const EPL = {
 	},
 	"score": {
 	"home": "West Ham United",
+	"logoHome": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/253.png",
 	"away": "Milton Keynes Dons",
+	"logoAway": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/1334.png",
 	"homeScore": "0",
 	"awayScore": "2"
 	},
@@ -10495,7 +10609,9 @@ export const EPL = {
 	},
 	"score": {
 	"home": "Chelsea",
+	"logoHome": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/20.png",
 	"away": "Aston Villa",
+	"logoAway": "http://instatfootball.tv/shakhtar_donetsk/instat_data/images/teams_logos/71.png",
 	"homeScore": "0",
 	"awayScore": "2"
 	},

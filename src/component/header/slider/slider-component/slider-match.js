@@ -17,7 +17,7 @@ export default class SliderMatch extends Component {
           "textDecoration": "none",
           "color": 'white'
       }}>
-      		<div data-index="1" className ="slick-slide slick-active" 
+      		<div data-index="1" className ="slick-slide slick-active slick-element" 
       		tabIndex = "-1" 
       		style = {{
       			"outline": "none",

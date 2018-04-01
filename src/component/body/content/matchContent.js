@@ -3,6 +3,7 @@ import './style.css'
 import PropTypes from 'prop-types';
 import LineUps from './lineUps/lineUps';
 import TeamStatic from './team-static/teamStatic';
+import PanelEvents from './rightPanel/panel-events'
 import { connect } from 'react-redux';
 import Accordion from '../../../decorators/accordion'
 
@@ -29,8 +30,8 @@ class MatchContent extends Component {
 	      		</div>	
 
 	      	<div className = "col-md-4"></div>
-	      	<div className = "col-md-4"></div>
-
+	      	<PanelEvents />
+	      	
 	      </div>
 	    );
     }

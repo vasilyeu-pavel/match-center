@@ -11,9 +11,9 @@ class TeamHome extends Component {
     return (
 		<div className = "col-4">
 			<div className = "row justify-content-between no-gutters">
-			{/*	<div className = "col logo">
-					<img src={}/>
-				</div> */}
+				<div className = "col logo">
+					<img src={match.score.logoHome}/>
+				</div> 
 				 <div className = "col align-self-end match-header-teamHome">	
 					<h3>{match.score.home}</h3>
 				</div>

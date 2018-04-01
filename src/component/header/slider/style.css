@@ -1,29 +1,24 @@
-.slick-arrow {
-    background-color: #005a7f;
-}
-
-.slick-slide {
-	padding: 2px;
-	border: 1px solid;
-	height: 60px;
-	max-width: 245px;
-	background-image: linear-gradient(to top, #4fccec 0%, #0180a9 80%);
+.header-container {
+	padding: 0 25px;
 }
 
 .slick-next {
-    height: 100%;
     right: -20px;
-    border-top-right-radius: 3px;
-	border-bottom-right-radius: 3px;
 }
 
 .slick-prev {
-	height: 100%;
 	left: -20px;
-	border-top-left-radius: 3px;
-	border-bottom-left-radius: 3px;
 }
+
 .regular {
 	background: #0381b0;
 	color: white;
+}
+
+.slick-element {
+	min-width: 255px;
+	padding: 5px;
+	border: 1px solid;
+	height: 60px;
+	background-image: linear-gradient(to top, #4fccec 0%, #0180a9 80%);
 }

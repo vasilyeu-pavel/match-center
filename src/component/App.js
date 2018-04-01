@@ -13,12 +13,18 @@ class App extends Component {
             <Header />
             <Switch>
                 <Route path ="/match/:id" render = {this.getMatch}/>
+                <Route path ="/" render = {this.homePage.bind(this, 1)}/>
             </Switch>
           </div>
       </div>
     );
   }
 
+  homePage = id => {
+    return (
+        <Body id = {id}/>
+      );
+  }
 
   getMatch = ({ match }) => {
     const id = match.params.id

@@ -12,7 +12,7 @@ class McHeader extends Component {
   render() {
   	const {legue} = this.props
     return (
-      <div className = "container mb-2">
+      <div className = "container mb-2" style = {{"padding": "0"}}>
           <div className = "row justify-content-between">
             <HeaderSelect seasson = {legue}/>
           	<div className = "col-md-3 logo" >{legue.league}</div>

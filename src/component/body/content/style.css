@@ -1,22 +1,22 @@
 .match-accordion {
-	min-height: 200px;
+	min-height: 400px;
 	background: #fff;
-    margin-bottom: 20px;
-    padding-bottom: 10px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
 }
 
-.panel-lineUps {
+.panel-lineUps, .panel-Events {
 	font: 13px/16px 'PT Sans Narrow', sans-serif;
 	margin: 0px;
     padding: 0px;
 }
-.panel-lineUps-players-content {
+.panel-lineUps-players-content, .panel-team-static-content {
 	padding-top: 10px;
 }
 
-.panel-lineUps-header {
+.panel-lineUps-header, .panel-team-static-header, .panel-Events-header {
 	background: #F5F5F5;
 	text-align: center;
     cursor: pointer;
@@ -53,4 +53,66 @@ ul li {
     padding-right: 15px;
     position: relative;
     vertical-align: top;
+}
+
+.static-team-Home {
+}
+
+.static-value {
+    text-align: center;
+}
+
+.static-team-away {
+    text-align: right;
+}
+
+.static-row {
+    cursor: pointer;
+}
+
+.static-row:hover {
+    background: #B0E0E6;
+}
+
+.panel-Events-content {
+    margin: 0;
+    padding: 0;
+}
+
+.panel-Events-menu {
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.test {
+    height: 100px;
+}
+
+.Events-menu {
+    padding: 5px;
+}
+
+.events-filter-menu {
+    text-align: center;
+}
+
+.event-time {
+    text-align: center;
+}
+
+.event-row {
+    margin-bottom: 2px;
+    cursor: pointer;
+    font-size: 14px;
+    min-height: 30px;
+    border-bottom: 1px solid #F5F5F5;
+    padding: 3px;
+}
+
+.event-row:hover {
+    background: #B0E0E6; 
+}
+
+.event-element {
+    font-size: 12px;
 }
