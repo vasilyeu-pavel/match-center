@@ -6,9 +6,11 @@ export default (state = [], action) => {
     return produce(state, draft => {
     	switch (type) {
     		case SELECTED_ROUND: return action.payload 
+    		
+    		default: return state;
     	}
     });
-    return state
+
 };
 
 

@@ -5,7 +5,6 @@ import EventsTeamHome from './eventsTeamHome'
 import EventsTeamAway from './eventsTeamAway'
 import StatusMatch from './statusMatch'
 import { connect } from 'react-redux';
-import {EPL} from '../../../../eplFixtures'
 
 class Events extends Component {
 	static propTypes = {

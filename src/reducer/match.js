@@ -7,10 +7,9 @@ export default (state = matchList, action) => {
     const {type} = action
     return produce(state, draft => {
     	switch (type) {
-
+    		default: return state;
     	}
     });
-   return state;
 };
 
 

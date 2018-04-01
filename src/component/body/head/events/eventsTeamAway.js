@@ -1,20 +1,20 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import './style.css'
-import { Aperture } from 'react-feather';
 import GoalAway  from './goalAway'
 
 class EventsTeamAway extends Component {
 	static propTypes = {
         match: PropTypes.object,
     };
-
-    componentWillReceiveProps() {
-    	if (!this.props.match) return null
+    
+    state = {
+    	element: <div className = "col-12 mb-1 info-goal"></div>
     }
 
 	render() {
 		const { goalAway } = this.props.match
+		if (goalAway) {			
 		const arrGoalAway = Object.values(goalAway)
 
 		const goal = arrGoalAway.map((goal, index) => (
@@ -22,9 +22,20 @@ class EventsTeamAway extends Component {
 		))		
 		return (
 			<div className = "col-4 eventsTeamAway">
-				{goal}123
+				<div className = "row justify-content-end">
+					{goal}
+				</div>	
 			</div>
 			)
+		}else {
+		return (
+			<div className = "col-4 eventsTeamAway">
+				<div className = "row justify-content-end">
+					{this.state.element}
+				</div>	
+			</div>
+			)
+		}	
 	}
 }
 export default EventsTeamAway

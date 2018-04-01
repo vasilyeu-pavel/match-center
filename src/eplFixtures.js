@@ -175,17 +175,6 @@ export const EPL = {
 	"10": "Sol Campbell",
 	"11": "Andy Sinton"
 	},
-	"goalHome": {
-	"1": {
-	"name": "John Hartson",
-	"time": "27"
-	},
-	"2": {
-	"name": "Dennis Bergkamp",
-	"time": "40",
-	"desc": "Penalty"
-	}
-	},
 	"subsHome": {
 	"1": {
 	"on": "Ian Pearce",
@@ -265,7 +254,7 @@ export const EPL = {
 	"score": {
 	"home": "Coventry City",
 	"away": "Nottingham Forest",
-	"homeScore": "0",
+	"homeScore": "2",
 	"awayScore": "3"
 	},
 	"benchHome": {
@@ -555,8 +544,8 @@ export const EPL = {
 	"score": {
 	"home": "Everton",
 	"away": "Newcastle United",
-	"homeScore": "2",
-	"awayScore": "0"
+	"homeScore": "3",
+	"awayScore": "3"
 	},
 	"benchHome": {
 	"1": "Craig Short",
@@ -863,8 +852,8 @@ export const EPL = {
 	"score": {
 	"home": "Sheffield Wednesday",
 	"away": "Aston Villa",
-	"homeScore": "2",
-	"awayScore": "1"
+	"homeScore": "3",
+	"awayScore": "3"
 	},
 	"benchHome": {
 	"1": "John Sheridan",
@@ -10507,8 +10496,8 @@ export const EPL = {
 	"score": {
 	"home": "Chelsea",
 	"away": "Aston Villa",
-	"homeScore": "1",
-	"awayScore": "1"
+	"homeScore": "0",
+	"awayScore": "2"
 	},
 	"benchHome": {
 	"1": "Mark Nicholls",
